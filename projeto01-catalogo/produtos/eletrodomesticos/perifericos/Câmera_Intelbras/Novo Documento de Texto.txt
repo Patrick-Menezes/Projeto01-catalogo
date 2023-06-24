@@ -1,0 +1,36 @@
+Câmera Intelbras
+Inteligência artificial com alarme integrado: A iMX detecta pessoas e envia alertas confiáveis sempre que alguém chegar ao local. E possui ainda uma sirene interna que dispara em caso de invasão.
+
+Monitoramento com qualidade: dia e noite: O sensor de alta tecnologia da iMX proporciona imagens claras, mesmo no escuro. Para você não perder nenhum detalhe.
+
+Mate a saudade sempre que quiser: Com a interação por voz, você pode, ouvir e falar com quem está no ambiente monitorado.
+
+Visão superwide e alta qualidade de imagem: O amplo campo de visão captura imagens em Full HD, garantindo que você acompanhe tudo com resolução máxima.
+
+Multiarmazenamento
+Guarde os momentos importantes com segurança no cartão micro-SD¹, em DVR/NVR com tecnologia Onvif, ou pelo serviço de gravação em nuvem Mibo Cloud².
+¹ Vendido separadamente.
+² Serviço disponível através de aquisição, não faz parte das funcionalidades padrão do produto. Os planos são individuais, ou seja, é necessário contratar um plano para cada câmera Mibo.
+
+Câmera Inteligente Interna Wi-Fi Full HD
+» Inteligência artificial
+» Interação por voz
+» 2 anos de garantia
+» Armazenamento em nuvem, microSD ou gravadores de vídeo
+» Aplicativo Mibo Cam
+
+
+Especificações técnicas
+Sensor: 1/2.7" 2 Megapixel Progressive CMOS
+Pixels efetivos: 1920 (H) x 1080 (V)
+Resolução real: Full HD (1080p)
+Lente: 2.8 mm
+Ângulo de visão horizontal: 131° (diagonal), 112° (horizontal) e 58° (vertical)
+Zoom digital 16x
+Alcance IR 10 m
+IR inteligente Sim
+Comprimento de onda LED IR 0,85 µm
+Sensibilidade 0 lux (IR ligado)
+Armazenamento MicroSD de até 256GB
+Day & Night Automático (Ajustável)
+Troca Automática do Filtro (ICR) Sim

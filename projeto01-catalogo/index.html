@@ -1,0 +1,271 @@
+<!Doctype html>
+<html>
+
+<heade>
+
+    <title>Golden House  </title>
+        <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/aeca5f7a5e.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--                                 -->
+
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="shortcut icon" href="/images/favicon.ico" />
+
+<!--                                 -->
+
+<meta name="description" content="catalogo de utilidades">
+<meta name="keywords" content="utilidades,eletrodomesticos,decoracao,utensilhos">
+<meta name="author" content="Patrick Menezes">
+
+
+</heade>
+<body  onresize="resize()">
+<header>
+    <div class="Cab_wraper">
+       <div class="logo"></div>
+       
+<div id="search" class="search_bar">
+  <input id="texto" type="text" placeholder="Encontre o que procura" onclick="search()"  value=""><i class="fa-solid fa-magnifying-glass"></i>
+     <div id="ops" >
+
+     </div> 
+</div>
+    </div>
+ <div  class="sub_menu">
+      <!-- todos os departamentos -->
+      <div id="all" class="menu_sing"onclick="All()">
+              <i class="fa-sharp fa-solid fa-chart-bar" style="color: #faa73d;" onclick="scrollshop()"></i>
+              <h4>todos os departamentos</h4>
+      </div>
+      <!-- ofertas -->
+      <!-- <div class="menu_sing">
+        <i class="fa-solid fa-tag"style="color: #faa73d;"></i>
+          <h4>ofertas</h4>
+      </div> -->
+      <!-- casa e decoração -->
+      <div class="menu_sing">  
+              <i class="fa-sharp fa-solid fa-house" style="color: #faa73d;"></i>
+                  <h4>casa e decoração</h4>
+                  <div class="hide">
+                   <ul>
+                  <li  onclick="Decor()">decoração</li>
+                  <li onclick="Gifts()">presentes</li>
+                  </ul>
+              </div>
+      </div>
+      <!-- utilidades -->
+      <div class="menu_sing">
+                <i class="fa-solid fa-kitchen-set" style="color: #faa73d;"></i>
+                <h4>utilidades</h4>
+            <div class="hide">
+                <ul>
+                <li onclick="Orgn()">organização</li>             
+                <li onclick="Utenc()">utensilhos</li>
+              </ul>
+            </div>
+      </div>
+      <!-- eletro -->
+      <div class="menu_sing">
+                <i class="fa-solid fa-blender" style="color: #faa73d;"></i>
+                <h4>eletrodomesticos</h4>
+                <div class="hide">
+                  <ul>
+                <li></li>
+                <li onclick="Eletp()">eletroportateis</li>
+                <li onclick="PerJ()">perifericos e jogos</li>
+                <li onclick="EletD()">eletrodomesticos</li>
+                </ul>
+            
+    </div>
+      </div>
+      <!-- papelaria -->
+      <div class="menu_sing">
+                    <i class="fa-sharp fa-solid fa-book-open" style="color: #faa73d;"></i>
+                    <h4>papelaria</h4>
+                    <div class="hide">
+                      <ul>              
+                    <li onclick="Esch()">materiais escolares</li>
+                    <li onclick="Offc()">materiais de escritorio</li>            
+                    </ul>
+                
+                </div>
+      </div>
+      <!-- lazer -->
+      <div class="menu_sing">
+            <i class="fa-solid fa-dumbbell" style="color: #faa73d;"></i>
+            <h4>lazer</h4>
+            <div class="hide">
+              <ul>
+            <li onclick="workout()">academia</li>
+            <li onclick="Sport()">esportes</li>
+            <li onclick="PetSh()">Pets</li>
+            <li onclick="Toy()">brinquedos</li>
+            </ul> 
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+ </div>
+
+
+</header>
+<!--  //////////////////////////////////////////////////////////////////header -->
+<div class="novidades">
+<h1>NOVIDADES:</h1>
+
+<div class="slider-cont">
+<div id="LeftAr" class="arrowL"><i class="fa-solid fa-angle-left"></i></div>
+<div id="cont" class="cont">
+  <div  class="item" style="background-image: url(/produtos/CasaDeco/decoracao/Abajur/abajur.png);"><h3>Abajur </h3></div>
+  <div  class="item" style="background-image: url(/produtos/CasaDeco/decoracao/Vaso_decorativo/vaso_decorativo.png);"><h3>vaso decorativo</h3></div>
+  <div  class="item" style="background-image: url(/produtos/utilidades/utensilhos/Copo_Termico/copo_termico.png);"><h3>copo termico</h3></div>
+  <div  class="item" style="background-image: url(/produtos/utilidades/utensilhos/Forminha_de_silicone/forma.png);"><h3>forminha de silcone</h3></div>
+  <div  class="item" style="background-image: url(/produtos/eletrodomesticos/eletrodomesticos/Chaleira_eletrica/chaleira.png);"><h3>chaleira elétrica</h3></div>
+  <div  class="item" style="background-image: url(/produtos/eletrodomesticos/eletroportateis/Fogão_Elétrico_de_Mesa/foogao.png);"><h3>fogão eletrico</h3></div>
+</div>
+<div id="RightAr" class="arrowR"><i class="fa-solid fa-angle-right"></i></div>
+</div>
+</div>
+<div  class="banner"><h1>conheça nossos produtos</h1></div>
+
+<!--  ///////////////////////////////////////////////////////////////novidades -->
+<div class="shoop">
+<div id= "full" class="full">
+  <button onclick="fechar()"><i class="fa-solid fa-rectangle-xmark" ></i></button>
+<div class="ilustrations">
+ <div  id="one" class="one"></div>
+
+</div> 
+<div  class="details">
+ <h3 id="titulo"></h3><br><br>   
+<div id="deta">
+
+
+</div>
+
+  
+ 
+</div>
+<div id="Options" class="options">
+   <h3 id="preco"></h3>
+  <button type="button" onclick="scrollmap()"> <i class="fa-solid fa-cart-shopping"style="color: #faa73d;"></i> onde comprar</button>
+
+</div>
+
+
+</div>
+<div class="colum">
+<div class="title">
+
+  <div id="ic" class="icon"></div>
+
+   </div>
+   <div class="table">
+  
+    <form>
+      
+      <h3>Todos os departamentos</h3>
+      <input type="radio" id="tod" name="all" value="tod" onclick="All()"><label for="tod" ></label><br>
+     
+      <h3>Casa e Decoração</h3>
+      <input type="radio" id="deco" name="all" value="decoração" onclick="radio()"><label for="deco" >decoração</label><br>
+      <input type="radio" id="gift" name="all" value="presentes"  onclick="radio()"><label for="gift">presentes</label><br>
+      
+      <h3>utilidades</h3> 
+       <input type="radio" id="org" name="all" value="org"onclick="radio()"><label for="org">organização</label><br>
+      <input type="radio" id="utenc" name="all" value="utenc"onclick="radio()"><label for="utenc">utensílios</label><br>
+      
+      <h3>eletrodomesticos</h3>
+      <input type="radio" id="eletro" name="all" value="eletro"onclick="radio()"><label for="eletro">eletroportateis</label><br>
+      <input type="radio" id="peri" name="all" value="peri"onclick="radio()"><label for="peri">perifericos</label><br>
+      <input type="radio" id="ele" name="all" value="ele"onclick="radio()"><label for="ele">eletrodomesticos</label><br>
+      
+      <h3>papelaria</h3>
+      <input type="radio" id="schol" name="all" value="schol"onclick="radio()"><label for="schol">materiais escolares</label><br>
+      <input type="radio" id="office" name="all" value="office"onclick="radio()"><label for="office">materiais de escritorio</label><br>
+      
+      <h3>lazer</h3>
+      <input type="radio" id="academia" name="all" value="academia"onclick="radio()"><label for="academia">academia</label><br>
+      <input type="radio" id="esportes" name="all" value="esportes"onclick="radio()"><label for="esportes">esportes</label><br>
+      <input type="radio" id="pets" name="all"value="pets"onclick="radio()"><label for="pets">Pets</label><br>
+      <input type="radio" id="toys" name="all" value="toys"onclick="radio()"><label for="toys">Brinquedos</label><br>
+      
+
+
+    </form>
+
+</div>
+</div>
+<div class="showcase">
+  <div id="crumb" class="crumb"></div>
+    <div id="list" class="core" >
+    
+    </div>
+</div>
+
+</div>
+<!--  ///////////////////////////////////////////////////////////////////shoop -->
+<div class="banner"><h1>venha nos visitar</h1></div>
+
+
+<div class="mcont">
+
+      <div class="infos">
+       <h2>R. 55, 428 - St. Central, Goiânia - GO, 74055-150</h2> 
+       <i class="fa-solid fa-location-dot"></i>
+      </div>
+      <div class="call">
+                <div class="b2">
+              <h1>Aguardamos ansiosamente sua presença!</h1>
+                </div> 
+        
+            <div id="map" class="map"></div>
+      </div>
+      
+   
+</div>
+<!--  ///////////////////////////////////////////////////////////////////map -->
+<footer>
+
+<div class="left">
+    <h4>visite nossas redes sociais</h4><br>
+    <a href="https://instagram.com/goldenhouse_utilidades?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fa-brands fa-instagram"style="color: #faa73d;"></i> </a> 
+     <p>@GoldenHouseOfficial</p><br><br>
+     <a href="https://www.facebook.com/goldenhouseutilidadesparaseular?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"style="color: #faa73d;"></i></a> 
+     <p>Golden House- Utilidades para seu lar</p><br><br>
+
+</div>
+<div class="right">
+       <h4>ou fale conosco diretamente</h4><br>
+       <a href=" http://api.whatsapp.com/send?1=pt_BR&phone=5562994568444" target="_blank"><i class="fa-brands fa-whatsapp"style="color: #faa73d;"></i></a>   
+       <p>(+55) 62 99456-8444</p><br>
+       <i class="fa-solid fa-envelope" style="color: #faa73d;"></i>
+        <p>goldenhouse637@gmail.com</p>
+<!-- <p>Nós da afamilia Golden House temos o prazer em lhe receber, sinta-se a vontade para explorar nosso catálogo. Em caso de dúvidas ou sugestões, converse conosco em nossos canais e faça uma visita para ser atendido como o cliente especial que você é!</p> -->
+</div>
+
+
+  <div class="logo"></div>
+</footer>
+<!--  ///////////////////////////////////////////////////////////////////footer-->
+
+
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkISl95b9EL3PM00pyXv2NjEbl0Q42Im4&callback=initMap"
+defer
+></script>
+<script src="script.js"></script>
+</body>
+
+
+
+</html>
